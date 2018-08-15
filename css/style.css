@@ -170,3 +170,29 @@ a:active
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+@media only screen and (max-width: 600px) {
+
+.btn {
+font-family: 'Ubuntu', sans-serif;
+font-size:16px;
+color: #ffffff;
+  height:30;
+  width: auto;
+  -webkit-border-radius: 59;
+  -moz-border-radius: 59;
+  border-radius: 59px;
+  text-shadow: 1px 1px 3px #666666;
+  background: #DB9E33;
+  padding: 3px 8px 3px 8px;
+  border: solid #383d2a 2px;
+  text-decoration: none;
+  margin-top:10px;
+  margin-left:0.2%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+}
+
+}
